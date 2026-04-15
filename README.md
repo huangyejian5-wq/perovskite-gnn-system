@@ -88,28 +88,4 @@ npm run build
 npm run dist
 ```
 
-## 目录建议
-
-```text
-src/
-  components/        UI 组件与布局
-  data/              已接入研究数据与汇总
-  models/            预测与约束相关模型逻辑
-  pages/             各功能页面
-  services/          数据整合与业务服务
-  types/             TypeScript 类型定义
-public/              静态资源
-electron-simple.js   Electron 入口
-```
-
-## 开源发布前建议
-
-- 根据你的公开发布意图补充正式许可证文件
-- 如需在线部署，可参考 `DEPLOYMENT.md`
-- 如需公开论文配套仓库，可继续补充数据说明、引用方式和截图
-
-## 当前说明
-
-- 仓库保留 `private: true` 仅用于避免误发到 npm，不影响作为 GitHub 公开代码仓库使用
-- 当前 README 以系统现状为准，不虚构未接入的数据能力
 
